@@ -1,0 +1,16 @@
+{
+  "name": "pruebaetl",
+  "version": "1.0.0",
+  "description": "Prueba de migracion de DB con ETL desde node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PabloRada",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "pg-promise": "^11.5.4"
+  }
+}
