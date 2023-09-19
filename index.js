@@ -2,10 +2,12 @@ const fs = require('fs');
 const csv = require('csv-parser');
 const pgp = require('pg-promise')();
 
+//connection string database
 // const db = pgp({
 //     connectionString: conexion a db
 // })
 
+//input csv export db 
 const sourcePqrs = 'inputPqr.csv';
 
 const dataCostumers = [];
